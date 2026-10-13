@@ -55,3 +55,5 @@ waveform: run
 	cd $(SIM_DIR) && \
 	verdi -ssf waves.fsdb -sswr tb_deserializer.vcd
 
+clean:
+	find syn -mindepth 1 -maxdepth 1 -exec rm -rf {} +
