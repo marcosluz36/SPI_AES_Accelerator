@@ -1,0 +1,8 @@
+AN.DB/
+csrc/
+simv.daidir/
+work.lib++/
+*.log
+*.vcd
+simv
+ucli.key
